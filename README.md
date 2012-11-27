@@ -4,7 +4,7 @@ Version 1.0 for cake 2.x
 
 This backup and restore plugin enables developers to quickly and easily backup and restore both database schema and data based on backup dates.
 
-As you develop your application, changes to the database need to be managed in a consistent and easy manner, especially in a team environment where different people bring in different changes and this can get extremely difficult at times. Backup and restore enables you to share and co-ordinate database changes as well as data in a manageable fashion distributed using git itself, hence significantly removing the complexity of handling these changes (no more phpmyadmin for database updates). We have used backup and restore PLugin in production environments for multiple backups and rolling out for fast deployment without any hickups. However, in the event we have missed a scenario we cannot be responsible for any data loss, use this at your own risk but we will be willing to fix any bug for you! :)
+As you develop your application, changes to the database need to be managed in a consistent and easy manner, especially in a team environment where different people bring in different changes and this can get extremely difficult at times. Backup and restore enables you to share and co-ordinate database changes as well as data in a manageable fashion distributed using git itself, hence significantly removing the complexity of handling these changes (no more phpmyadmin for database updates). We have used backup and restore Plugin in production environments with multiple backups and for database roll-outs for fast deployments, without any hickups. However, in the event we have missed a scenario we cannot be held responsible for any data loss, use this at your own risk. Said that we would love to fix any bug found by you! :)
 
 Installation
 =============
@@ -53,6 +53,10 @@ Support
 =========
 For support and feature request, please create an issue: 
 https://github.com/Maldicore/Backups/issues
+
+ToDo List
+==========
+* UnitTesting
 
 Contributing to this Plugin
 =============================
