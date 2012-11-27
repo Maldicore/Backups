@@ -4,7 +4,7 @@ Version 1.0 for cake 2.x
 
 This backup and restore plugin enables developers to quickly and easily backup and restore both database schema and data based on backup dates.
 
-As an application is developed, changes to the database may be required, and managing that in teams can get extremely difficult. Backup and restore enables you to share and co-ordinate database changes as well as data in an iterative manner, removing the complexity of handling these changes. We have used backup and restore in a production environment for multiple backups and rolling them out for fast deployment.
+As you develop your application, changes to the database need to be managed in a consistent and easy manner, especially in a team environment where different people bring in different changes and this can get extremely difficult at times. Backup and restore enables you to share and co-ordinate database changes as well as data in a manageable fashion distributed using git itself, hence significantly removing the complexity of handling these changes (no more phpmyadmin for database updates). We have used backup and restore PLugin in production environments for multiple backups and rolling out for fast deployment without any hickups. However, in the event we have missed a scenario we cannot be responsible for any data loss, use this at your own risk but we will be willing to fix any bug for you! :)
 
 Installation
 =============
