@@ -19,7 +19,9 @@ Backups
 -------
 * In your cakePHP application root folder (in a terminal) execute
 
+<pre>
 	./app/Console/cake Backups.backup
+</pre>
 
 It will backup all the tables in the database and zip (if ZipArchive exits!)
 the backup files are stored in ./app/Backups
@@ -28,7 +30,9 @@ Restoring
 ----------
 * In your cakePHP application root folder (in a terminal) execute
 
+<pre>
 	./app/Console/cake Backups.backup restore
+</pre>
 
 It will prompt you all available backup versions with date and time, just type a corresponding version (eg: 0) and hit enter
 
