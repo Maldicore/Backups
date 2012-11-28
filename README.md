@@ -26,7 +26,7 @@ Backups
 It will backup all the tables in the database and zip (if ZipArchive exits!)
 the backup files are stored in ./app/Backups
 
-![Backup](https://lh4.googleusercontent.com/-aLQuVNC-kr0/ULVVtWZBpSI/AAAAAAAACXg/6JyXo_PhNI0/s400/Selection_067.png)
+![Backup](https://lh3.googleusercontent.com/-zPRwqzgjb7s/ULVo939aa3I/AAAAAAAACYQ/e85juiba1zg/s400/Selection_067.png)
 
 Restoring
 ----------
