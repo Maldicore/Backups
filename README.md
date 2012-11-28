@@ -46,7 +46,7 @@ Troubleshooting
 
 Notes
 ------
-* The database user (in cakephp database config) must have rights to drop tables for restore to work! As the restore process drops all the tables and restore them one by one.
+* The database user (in cakephp database config) must have rights to drop tables for restore to work! As the restore process drops the tables and restore them one by one.
 
 Requirements
 ==============

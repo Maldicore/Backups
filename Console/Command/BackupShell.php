@@ -136,11 +136,11 @@ class BackupShell extends Shell {
 			$zip->addFile($file, $fileSufix);
 			$zip->close();
 			$this->out("Zip \"" . $file . ".zip\" Saved (" . filesize($file . '.zip') . " bytes)\n");
-			$this->out("Removing original file...");
+			$this->out("Zipping Done!");
 			if (file_exists($file . '.zip') && filesize($file) > 10) {
 				unlink($file);
 			}
-			$this->out("Original file removed.\n");
+			$this->out("Database Backup Successful.\n");
 		}
 	}
 
@@ -211,7 +211,7 @@ class BackupShell extends Shell {
 	    			$sql = explode("\n\n", $sql_content);
 	    			foreach ($sql as $key => $s) {
 	    				if(trim($s)){
-	    					$model->query($s);
+	    					$result = $model->query($s);
 	    				}
 	    			}
 	    			unlink($unzipped_file);
