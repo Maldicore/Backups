@@ -61,6 +61,7 @@ https://github.com/Maldicore/Backups/issues
 ToDo List
 ==========
 * UnitTesting
+* Settings to choose datasource and output directory
 
 Contributing to this Plugin
 =============================

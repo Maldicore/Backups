@@ -9,13 +9,12 @@
  *
  * TODO
  * Settings to choose datasource, table and output directory
- * Restore from backup
  * 
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notice.
  *
  * @copyright 2012, Maldicore Group Pvt Ltd
- * @link      http://github.com/...
+ * @link      https://github.com/Maldicore/Backups
  * @package   plugns.Backups
  * @license   MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
