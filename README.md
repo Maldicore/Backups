@@ -26,7 +26,7 @@ Backups
 It will backup all the tables in the database and zip (if ZipArchive exits!)
 the backup files are stored in ./app/Backups
 
-![Backup](https://lh4.googleusercontent.com/-aLQuVNC-kr0/ULVVtWZBpSI/AAAAAAAACXg/6JyXo_PhNI0/s144/Selection_067.png)
+![Backup](https://lh4.googleusercontent.com/-aLQuVNC-kr0/ULVVtWZBpSI/AAAAAAAACXg/6JyXo_PhNI0/s400/Selection_067.png)
 
 Restoring
 ----------
@@ -38,7 +38,7 @@ Restoring
 
 It will prompt you all available backup versions with date and time, just type a corresponding version (eg: 0) and hit enter
 
-![Restore](https://lh5.googleusercontent.com/-O7FI-eLyiWc/ULVVtVhCmtI/AAAAAAAACXk/LNerKNlBQc8/s144/Selection_068.png)
+![Restore](https://lh5.googleusercontent.com/-O7FI-eLyiWc/ULVVtVhCmtI/AAAAAAAACXk/LNerKNlBQc8/s400/Selection_068.png)
 
 Troubleshooting
 ----------------
