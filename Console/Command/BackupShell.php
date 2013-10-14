@@ -57,7 +57,7 @@ class BackupShell extends Shell {
 			trigger_error('The path "' . $path . '" isn\'t writable!', E_USER_ERROR);
 		}
 		
-		$this->out("Backuping...\n");
+		$this->out("Backing up...\n");
 		$File = new File($file);
 
 		$db = ConnectionManager::getDataSource($dataSourceName);
